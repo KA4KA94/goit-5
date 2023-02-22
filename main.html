@@ -11,17 +11,19 @@
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
-    <!-- header -->
-    <header class="container main-nav">
-        <nav class="main-nav">
-            <a href="./main.html" class="logo-primary">Web<span class="logo-secondary">Studio</span></a>
-            <ul class="site-nav list">
-                <li class="item"><a href="./main.html" class="link active ">Контакты</a></li>
-                <li class="item"><a href="./portfolio.html" class="link ">Портфолио</a></li>
-                <li class="item"><a href="./main.html" class="link">Контакты</a></li>
-            </ul>    
-        </nav>  
-        <ul class="auch-nav main-nav list">
+    <!-- HEADER -->
+<header class="container main-nav">
+    <nav class="main-nav">
+     <a href="./main.html" class="logo-primary">Web<span class="logo-secondary">Studio</span></a>
+        <ul class="site-nav list">
+             <li class="item"><a href="./main.html" class="link active ">Контакты</a>
+                <div class="box"></div>
+             </li>
+             <li class="item"><a href="./portfolio.html" class="link ">Портфолио</a></li>
+             <li class="item"><a href="./main.html" class="link">Контакты</a></li>
+        </ul>    
+    </nav>  
+        <ul class="auch-nav list">
             <li class="item">
                 <a href="mailto:info@devstudio.com" class="link">
                     <svg class="icon" height="12" width="16">
@@ -37,73 +39,92 @@
                 +38 096 111 11 11
             </a>
         </ul>   
-    </header>
-    <!-- main -->
-    <main>
-        <!--hero-->
-        <div class="hero">
-            <section class="container">
-                <h1 class="title">Эффективные решения<br>для вашего бизнеса</h1>
-                <a href="" class="button">Заказать услугу</a> 
-            </section>
-        </div>
-        <!--section -->
-        <div class="container">
-            <section class="section-title">
-                <ul class="advantage-link list">
-                    <li class="list-title">
-                            <div class="features">
-                                <svg height="70" width="70" >
-                                    <use href="./img/symbol-defs.svg#antenna"></use>
-                                </svg>
-                            </div>
-                        <h2 class="title">Внимание к деталям</h2>
-                        <p class="paragraph">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>
-                
-                
-                    <li class="list-title">
-                        <div class="features">
-                            <svg height="70" width="70" >
-                                <use href="./img/symbol-defs.svg#clock"></use>
-                            </svg>
-                        </div>
-                        <h2 class="title">Пунктуальность</h2>
-                        <p class="paragraph">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>
-                
-                
-                    <li class="list-title">
-                        <div class="features">
-                            <svg height="70" width="70" >
-                                <use href="./img/symbol-defs.svg#diagram"></use>
-                            </svg>
-                        </div>
+</header>
+    <!-- MAIN -->
+<main>
+        <!--HERO-->
+    <div class="hero">
+        <section class="container">
+            <h1 class="title">Эффективные решения<br>для вашего бизнеса</h1>
+            <a href="" class="button">Заказать услугу</a> 
+        </section>
+    </div>
+        <!--SECTION ADVANTAGE -->
+    <div class="container">
+        <section class="section-title">
+            <ul class="advantage-link list">
+                <li class="list-title">
+                    <div class="features">
+                        <svg height="70" width="70" >
+                            <use href="./img/symbol-defs.svg#antenna"></use>
+                        </svg>
+                    </div>
+                    <h2 class="title">Внимание к деталям</h2>
+                    <p class="paragraph">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+
+                <li class="list-title">
+                    <div class="features">
+                        <svg height="70" width="70" >
+                            <use href="./img/symbol-defs.svg#clock"></use>
+                        </svg>
+                    </div>
+                    <h2 class="title">Пунктуальность</h2>
+                    <p class="paragraph">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+
+                <li class="list-title">
+                    <div class="features">
+                        <svg height="70" width="70" >
+                            <use href="./img/symbol-defs.svg#diagram"></use>
+                        </svg>
+                    </div>
                     <h2 class="title">Планирование</h2>
                     <p class="paragraph">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>
-                
-                
-                    <li class="list-title">
-                        <div class="features">
-                            <svg height="70" width="70" >
-                                <use href="./img/symbol-defs.svg#astronaut"></use>
-                            </svg>
-                        </div>      
-                        <h2 class="title">Современные технологии</h2>
-                        <p class="paragraph">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </li>
-                </ul>
-                </section>
-        </div>
-        <!-- section  -->
+                </li>
+
+                <li class="list-title">
+                    <div class="features">
+                        <svg height="70" width="70" >
+                            <use href="./img/symbol-defs.svg#astronaut"></use>
+                        </svg>
+                    </div>      
+                    <h2 class="title">Современные технологии</h2>
+                    <p class="paragraph">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+        <!-- SECTION WORK  -->
         <div class="container">
             <section class="section-title">
                 <h1 class="link">Чем мы занимаемся</h1>
                 <ul class="img-list list">
-                    <li class="item"><img src="./img/img(1).jpg" alt="Програмування" width="295"></li>
-                    <li class="item"><img src="./img/img(2).jpg" alt="Менеджмент" width="295"></li>
-                    <li class="item"><img src="./img/img(3).jpg" alt="Дизайн" width="295"></li>
+                    <li class="item">
+                        <div class="pposition">
+                            <img src="./img/img(1).jpg" alt="Програмування" width="295">
+                            <div class="position">
+                                <h2 class="text-position">Десктопные приложения</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="pposition">
+                            <img src="./img/img(2).jpg" alt="Менеджмент" width="295">
+                            <div class="position">
+                                <h2 class="text-position">Мобильные приложения</h2>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="item">
+                        <div class="pposition">
+                            <img src="./img/img(3).jpg" alt="Дизайн" width="295">
+                            <div class="position">
+                                <h2 class="text-position">Дизайнерские решения</h2>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </section>
         </div>
@@ -310,7 +331,7 @@
             </section>
 
         </div>
-    </main>
+</main>
     <!-- footer -->
     <footer class="footer">
             <div class="container-footer">
