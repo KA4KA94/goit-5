@@ -30,7 +30,8 @@ justify-content: space-around;
     color: var(--accent-color);
 }
 .logo-secondary{
-    color:var(--black)
+    color:var(--black);
+    padding-bottom: 80px;
 }
 .logo-primary,
 .logo-secondary{
@@ -43,6 +44,11 @@ justify-content: space-around;
     margin-right: 90px;
 
 }
+.link.active{
+    position: static;
+    padding-bottom: 30px;
+}
+
 /* FOOTER LOGO */
 .footer .logo-primary{
     color: var(--accent-color)
@@ -335,6 +341,7 @@ text-transform: uppercase;
 .employee-link .item{
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -543,23 +550,27 @@ justify-content: center;
     margin-top: 20px; 
 }
 .flex-elements{
-             
+    margin-bottom: 30px; 
+    height: 404px;   
 }
 .flex-elements:hover{   
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
+.flex-elements .title,
+.flex-elements .description{
+    padding-left: 24px;
 }
 
 .kia{
     margin: 0;
     padding: 0;
 }
-.mama{
+.produckt{
     position: relative;
     overflow: hidden;   
-    
-
 }
-.tato{
+.produckt-thumb{
     position: absolute;
     transform: translateY(100%);
     width: 100%;
@@ -570,27 +581,28 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     opacity: 0;
     transition: transform 250ms;
 }
-.tato:hover{
+.produckt-thumb:hover{
 opacity: 1;
 
 }
-.flex-elements:hover .tato{
+.flex-elements:hover .produckt-thumb{
     position: absolute;
     transform: translate(0);
     width: 100%;
     height: 100%;
     background-color: #fff;
     background: rgba(33, 150, 243, 0.9);
-    opacity: 1;
-         
+    opacity: 1;      
 }
-.text-tato{
-    
-padding: 0;
+.produckt-name{
+padding-left: 24px;
+padding-right: 24px;
+padding-top:63px;
+padding-bottom: 63px;
 margin: 0;
-width: 100%;
-height: 100%;
-padding: 0;
+width: 322px;
+height: 168px;
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -598,13 +610,9 @@ font-size: 18px;
 line-height: 1.5;
 letter-spacing: 0.03em;
 color:#FFFFFF; 
-transition: transform 250ms;   
-
-
+transition: transform 250ms;  
 }
-.tato2{
 
-}
 
 
 .heading .title{
@@ -614,13 +622,14 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 margin: 0;
-padding: 0;
+
 }
 .flex-container{
     display: flex;
     flex-wrap: wrap;  
     justify-content: space-between;
     padding-bottom: 95px;
+    
 }
 .flex-element:nth-child(3n ) {
     margin-right: 0;
